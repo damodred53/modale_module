@@ -18,6 +18,10 @@ npm install
 
 <strong>Pensez bien aussi à installer React</strong>
 
+<h2>Téléchargement depuis Npm<h2>
+
+<strong>ligne de commande : npm i modal_florent_guyard</strong>
+
 <h2>Utilisation</h2>
 Importez le composant Modal dans votre application et utilisez-le comme suit :
 
