@@ -2,7 +2,9 @@
 
 Ce composant React crée une modale simple qui affiche un message prédéfini lorsqu'un employé est créé. La modal se ferme lorsque vous cliquez à l'extérieur de la zone de contenu ou sur une icône de fermeture.
 
-<h2>Version</h2> : 1.0.15
+<h2>Version</h2> 
+
+Version de la modale : 1.0.15
 
 Prérequis
 Assurez-vous d'avoir installé Node.js v20.12.1 ou posterieur et npm sur votre machine.
@@ -21,6 +23,10 @@ npm install
 <h2>Téléchargement depuis Npm<h2>
 
 <strong>ligne de commande : npm i modal_florent_guyard</strong>
+
+Une fois installé, vous pourrez retrouver le module dans votre dossier node_modules.
+
+Vous pouvez ensuite importer le module directement dans votre code à la page nécessairevia un import classique.
 
 <h2>Utilisation</h2>
 Importez le composant Modal dans votre application et utilisez-le comme suit :
