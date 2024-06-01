@@ -25,7 +25,7 @@ npm install
 
 <h2>Téléchargement depuis Npm<h2>
 
-<strong>ligne de commande : npm i modal_florent_guyard</strong>
+ligne de commande : npm i modal_florent_guyard
 
 Une fois installé, vous pourrez retrouver le module dans votre dossier node_modules.
 
