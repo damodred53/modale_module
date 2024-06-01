@@ -41,7 +41,7 @@ la largeur et la hauteur. Les props sont nommés : textContent, width et height.
 
 Vous pouvez vous baser sur la capture d'écran ci-dessus pour comprendre le fonctionnement des props.
 
-<img src="" />
+<img src="https://github.com/damodred53/modale_module/blob/main/capture_modal_activated.png" />
 
 <h2>Fonctionnalités</h2>
 
