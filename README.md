@@ -2,9 +2,12 @@
 
 Ce composant React crée une modale simple qui affiche un message prédéfini lorsqu'un employé est créé. La modal se ferme lorsque vous cliquez à l'extérieur de la zone de contenu ou sur une icône de fermeture.
 
+Vous pouvez également modifier la largeur, la hauteur et le contenu du texte de la div contenant
+la partie texte.
+
 <h2>Version</h2> 
 
-Version de la modale : 1.0.15
+Version de la modale : 1.0.17
 
 Prérequis
 Assurez-vous d'avoir installé Node.js v20.12.1 ou posterieur et npm sur votre machine.
@@ -26,13 +29,17 @@ npm install
 
 Une fois installé, vous pourrez retrouver le module dans votre dossier node_modules.
 
-Vous pouvez ensuite importer le module directement dans votre code à la page nécessairevia un import classique.
+Vous pouvez ensuite importer le module directement dans votre code à la page nécessaire via un import classique.
 
 <h2>Utilisation</h2>
 Importez le composant Modal dans votre application et utilisez-le comme suit :
 
 <img src="https://github.com/damodred53/modale_module/blob/main/sample_modale.png"/>
 
+Afin de modifier l'interface de la modale, celle-ci prévoit des props afin de modifier le contenu du texte
+la largeur et la hauteur. Les props sont nommés : textContent, width et height. 
+
+Vous pouvez vous baser sur la capture d'écran ci-dessus pour comprendre le fonctionnement des props.
 
 <h2>Fonctionnalités</h2>
 
