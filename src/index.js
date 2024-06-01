@@ -5,9 +5,6 @@ import { useRef, useState } from "react";
 
 const Modal = ({textContent = "employee Created !!", width = "50%", height = "10%"}) => {
 
-    // useState permettant de gérer l'ouverture et la fermeture de la modale
-    const [isModalOpen, setIsModalOpen] = useState(true)
-
     // fonction permettant de fermer la modale en cliquant hors du champ texte
     const handleClosure = (event) => {
         if (event.target === modalRef.current) {
