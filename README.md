@@ -7,7 +7,7 @@ la partie texte.
 
 <h2>Version</h2> 
 
-Version de la modale : 1.0.18
+Version de la modale : 1.0.19
 
 Prérequis
 Assurez-vous d'avoir installé Node.js v20.12.1 ou posterieur et npm sur votre machine.
@@ -25,7 +25,7 @@ npm install
 
 <h2>Téléchargement depuis Npm<h2>
 
-<strong>ligne de commande : npm i modal_florent_guyard</strong>
+ligne de commande : npm i modal_florent_guyard
 
 Une fois installé, vous pourrez retrouver le module dans votre dossier node_modules.
 

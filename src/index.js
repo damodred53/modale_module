@@ -1,7 +1,7 @@
 import React from "react";
 import CrossIcon from "../assets/cross.png";
 import "../style/modal.css";
-import { useRef, useState } from "react";
+import { useRef} from "react";
 
 const Modal = ({textContent = "employee Created !!", width = "50%", height = "10%"}) => {
 
