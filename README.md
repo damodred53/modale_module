@@ -2,10 +2,10 @@
 
 Ce composant React crée une modale simple qui affiche un message prédéfini lorsqu'un employé est créé. La modal se ferme lorsque vous cliquez à l'extérieur de la zone de contenu ou sur une icône de fermeture.
 
-<h2>Version</h2> : 1.0.14
+<h2>Version</h2> : 1.0.15
 
 Prérequis
-Assurez-vous d'avoir installé Node.js et npm sur votre machine.
+Assurez-vous d'avoir installé Node.js v20.12.1 ou posterieur et npm sur votre machine.
 
 <h2>Installation</h2>
 Clonez ce dépôt :

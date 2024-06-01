@@ -1,6 +1,6 @@
 {
   "name": "modal_florent_guyard",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "This a a very simple modal to indicate that an employee has been created. The text content is easily editable. You can close the modal by clicking on the cross Icon.",
   "main": "index.js",
   "scripts": {
