@@ -7,7 +7,7 @@ la partie texte.
 
 <h2>Version</h2> 
 
-Version de la modale : 1.0.17
+Version de la modale : 1.0.18
 
 Prérequis
 Assurez-vous d'avoir installé Node.js v20.12.1 ou posterieur et npm sur votre machine.
@@ -46,7 +46,6 @@ Vous pouvez vous baser sur la capture d'écran ci-dessus pour comprendre le fonc
 Affiche un message prédéfini lorsqu'un employé est créé.
 Ferme la modal lorsque vous cliquez à l'extérieur de la zone de contenu ou sur une icône de fermeture.
 Structure des fichiers
-
 
 <h2>Styles CSS</h2>
 

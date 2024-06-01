@@ -3,12 +3,12 @@ import CrossIcon from "../assets/cross.png";
 import "../style/modal.css";
 import { useRef, useState } from "react";
 
-const Modal = ({ isOpen, textContent = "employee Created !!", width = "50%", height = "10%"}) => {
+const Modal = ({textContent = "employee Created !!", width = "50%", height = "10%"}) => {
 
+    // useState permettant de gérer l'ouverture et la fermeture de la modale
     const [isModalOpen, setIsModalOpen] = useState(true)
 
-    
-
+    // fonction permettant de fermer la modale en cliquant hors du champ texte
     const handleClosure = (event) => {
         if (event.target === modalRef.current) {
           const modalToClose = document.querySelector('.modal');
@@ -17,6 +17,7 @@ const Modal = ({ isOpen, textContent = "employee Created !!", width = "50%", hei
         }
     }
 
+    // fonction permettant de fermer la modale en cliquant sur la croix
     const handleClosureCross = () => {
         const modalToClose = document.querySelector('.modal');
         modalToClose.style.display = "none";
@@ -26,7 +27,6 @@ const Modal = ({ isOpen, textContent = "employee Created !!", width = "50%", hei
     const modalRef = useRef()
 
     return (
-
         <section className="modal" ref={modalRef} onClick={handleClosure}>
             <div className="modal_div" style={{ width, height }}>
                 <p className="modal_div_paragraph">{textContent}</p>
