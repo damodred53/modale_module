@@ -41,6 +41,8 @@ la largeur et la hauteur. Les props sont nommés : textContent, width et height.
 
 Vous pouvez vous baser sur la capture d'écran ci-dessus pour comprendre le fonctionnement des props.
 
+<img src="" />
+
 <h2>Fonctionnalités</h2>
 
 Affiche un message prédéfini lorsqu'un employé est créé.
